@@ -18,6 +18,8 @@ require("./routes/apiRoutes")(app);
 //html route
 require("./routes/htmlRoutes")(app);
 
+
+//start server
 app.listen(PORT, () => {
     console.log(`server started on port ${PORT}`);
 });
